@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<portlet-app id="com.ibm.bradescoappsportlet.BradescoAppsPortlet.a0ae41f2d3c1001710b7b313e1a97" version="2.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://java.sun.com/xml/ns/portlet/portlet-app_2_0.xsd"
+  xsi:schemaLocation="http://java.sun.com/xml/ns/portlet/portlet-app_2_0.xsd http://java.sun.com/xml/ns/portlet/portlet-app_2_0.xsd">
+  <portlet>
+    <portlet-name>SamplePortlet</portlet-name>
+    <display-name>Sample Portlet</display-name>
+    <portlet-class>com.cinq.portlet.sample.SamplePortlet</portlet-class>
+    <supports>
+      <mime-type>text/html</mime-type>
+      <portlet-mode>view</portlet-mode>
+      <portlet-mode>edit</portlet-mode>
+    </supports>
+    <supported-locale>en</supported-locale>
+    <resource-bundle>com.cinq.portlet.nl.SamplePortletResource</resource-bundle>
+    <portlet-info>
+      <title>SamplePortlet</title>
+      <short-title>Sample</short-title>
+      <keywords>Sample,Cinq</keywords>
+    </portlet-info>
+  </portlet>
+</portlet-app>
