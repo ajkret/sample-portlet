@@ -4,10 +4,10 @@ Build it and deploy on Pluto, on __webapps__ folder.
 
 Go to the __Pluto Admin__ page and add the portlet to a new Page, for better results.
 
-# Notes to configure on Eclipse
+# Notes to run and debug on Eclipse
 Bear in mind that Portlets are an ancient technology, and some production 
 Portal Servers work on Java 1.6 even in 2015 (IBM Portal Server 8, for instance).
-So, it is better to keep with Eclipse Luna (4.4.2), which still runs on 1.6. 
+So, it is better to stick with Eclipse Luna (4.4.2), which still runs on 1.6. 
 You can run it on Mars, of course, after all the project is configured to 1.6. 
 It is your decision.
 
