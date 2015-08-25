@@ -18,27 +18,6 @@ public class SamplePortlet implements Portlet {
 	
 	PortletContext context = null;
 
-//	protected void doView(RenderRequest request, RenderResponse response)
-//			throws PortletException, IOException {
-//		response.setContentType("text/html");
-//
-//		PortletPreferences pref = request.getPreferences();
-//		
-//		// Get the value of "displaytext" from our preferences, if not
-//		// available,
-//		// then use the second string passed to the function
-//		String displayText = pref.getValue("displaytext",
-//				"MISSING: display-text");
-//		// displays the string from our preferences
-//
-//		response.setContentType(request.getResponseContentType());
-//		PrintWriter writer = response.getWriter();
-//		writer.write(displayText);
-//
-//		// getPortletContext().getRequestDispatcher("/index.jsp").include(
-//		// request, response);
-//	}
-
 	public void init(PortletConfig config) throws PortletException {
 		logger.info("init");
 		context = config.getPortletContext();
